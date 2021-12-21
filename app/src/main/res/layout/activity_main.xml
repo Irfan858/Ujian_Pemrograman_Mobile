@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Soal 1
+    Susun Komponen tersebut dengan Linear Layout dengan margin
+    Kiri Dan kanan sebesar 40dp -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<!--Akhir Soal 1 -->
+
+    <!--Soal 2
+        Silahkan Tampilkan Gambar Account Circle dengan ukuran
+        Panjang dan Lebar Sebesar 150dp -->
+    <ImageView
+        android:layout_width=""
+        android:layout_height=""
+        android:src="" />
+    <!--Akhir Soal 2 -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tambah Foto"
+        />
+
+    <!-- Soal 3
+        Tambahkan Edit Text yang tersisa dengan ketentuan Soal -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Lengkap"
+        android:layout_marginBottom="20dp"
+        />
+
+    <!-- Akhir Soal 3 -->
+
+    <!--Soal 4
+        Gantilah Salah Satu Warna Pada Tombol berikut menjadi Warna Merah -->
+    <Button
+        android:id="@+id/btnSimpan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
+        />
+
+    <!--Akhir Soal 4 -->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
